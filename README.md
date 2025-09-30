@@ -2,7 +2,7 @@
 
 Welcome to **Kakrolloids!** 🎮  
 
-This README will guide you through the installation and setup process for both macOS and Windows.  
+This README will guide you through the installation and setup process for Linux, macOS and Windows.  
 
 ---
 
