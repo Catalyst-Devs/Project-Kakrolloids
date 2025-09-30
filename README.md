@@ -11,7 +11,7 @@ This README will guide you through the installation and setup process for Linux,
 ### Step 1: Install Python
 Kakrolloids requires Python to run. We’ve included installers in the `python-installers` folder.  
 
-- **macOS and Linux**:  
+- **macOS**:  
   - Open `python-installers/python-macos.pkg` and follow the installation steps.  
 
 - **Windows**:  
