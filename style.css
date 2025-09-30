@@ -1,0 +1,98 @@
+@font-face {
+    font-family: 'PressStart2P';
+    src: url('assets/fonts/PressStart2P.ttf') format('truetype');
+}
+
+body {
+    font-family: 'PressStart2P', monospace;
+    background-color: #000;
+    color: #00ff00;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
+}
+
+header {
+    padding: 20px;
+}
+
+.banner {
+    max-width: 100%;
+    height: auto;
+}
+
+main {
+    padding: 20px;
+}
+
+.intro h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.intro p {
+    font-size: 0.8em;
+}
+
+.about,
+.downloads,
+.created-by {
+    margin: 40px 0;
+}
+
+.about h2,
+.downloads h2,
+.created-by h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.about p,
+.downloads p,
+.created-by p {
+    font-size: 0.7em;
+    line-height: 1.5;
+}
+
+.download-link {
+    color: #00ff00;
+    text-decoration: none;
+    font-size: 0.8em;
+    border: 1px solid #00ff00;
+    padding: 10px;
+    display: inline-block;
+    margin: 5px;
+    transition: background-color 0.3s;
+}
+
+.download-link:hover {
+    background-color: #00ff00;
+    color: #000;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 40px;
+}
+
+.icon-container {
+    text-align: center;
+}
+
+.icon {
+    width: 64px;
+    height: 64px;
+    image-rendering: pixelated;
+}
+
+footer {
+    padding: 20px;
+    font-size: 0.6em;
+    border-top: 2px solid #00ff00;
+    margin-top: 40px;
+}
